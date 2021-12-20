@@ -57,5 +57,5 @@ class ExceptionHandler {
     }
 }
 ```
-@ResControllerAdvice를 클래스에 선언해주면, 모든 @Controller에 대한 전역으로 발생하는 예외를 잡아서 처리할 수 있습니다. <br />
+@RestControllerAdvice를 클래스에 선언해주면, 모든 @Controller에 대한 전역으로 발생하는 예외를 잡아서 처리할 수 있습니다. <br />
 또한, 예외 처리를 위해 선언된 함수 위에 @ExceptionHandler(BaseException::class)를 선언해주면, 발생한 BaseException을 처리해줄 수 있습니다.
